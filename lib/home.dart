@@ -40,20 +40,38 @@ class _HomeState extends State<Home> {
               ),
               TextField(
                 decoration: InputDecoration(
-                    disabledBorder: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.red, width: 10)),
-                    prefixIcon: Icon(Icons.person),
-                    focusedBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(20),
-                        borderSide: BorderSide(color: Colors.green, width: 3)),
-                    enabledBorder: OutlineInputBorder(
-                        borderSide:
-                            BorderSide(color: Colors.purple, width: 2))),
+                  disabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.red, width: 10),
+                  ),
+                  prefixIcon: Icon(Icons.person),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(20),
+                    borderSide: BorderSide(color: Colors.green, width: 3),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.purple, width: 2),
+                  ),
+                ),
                 style: TextStyle(fontSize: 30),
                 maxLength: 18,
                 maxLines: 1,
               ),
-              TextField()
+              TextField(
+                decoration: InputDecoration(
+                  disabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.red, width: 10),
+                  ),
+                  prefixIcon: Icon(Icons.person),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(20),
+                    borderSide: BorderSide(color: Colors.green, width: 3),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.purple, width: 2),
+                  ),
+                ),
+                obscureText: true,
+              )
             ]),
           ),
         ),
